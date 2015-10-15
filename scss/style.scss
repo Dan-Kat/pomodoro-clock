@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+$primary: #222;
+
+html {
+  font-size: 62.5%;
+}
+button {
+  background-color: #222;
+}
+body {
+  background-color: $primary;
+  color: white;
+  font-weight: 700;
+}
+#title {
+  font-family: Lobster, cursive;
+  font-size: 8rem;
+}
+button {
+  font-weight: 700 !important;
+  color: white !important;
+  background:transparent;
+  outline:none !important;
+  border:2px solid white !important;
+}
+#clock {
+  border: 2px solid white;
+  border-radius:100%;
+  width:200px;
+  height:200px;
+  font-size:3em;
+  margin:.5em auto;
+  padding-top: 80px;
+  line-height: 40px;
+}

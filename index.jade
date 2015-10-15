@@ -1,0 +1,39 @@
+div(class="container-fluid")
+  div(class="row")
+    div(class="col-md-12 text-center")
+      p(id="title") Pomodoro Clock 
+      
+div(class="container-fluid")
+  div(class="row text-center")
+    div(class="col-md-2 col-md-offset-4")
+      p Break Length
+      ul(class="list-inline")
+        li
+          button(class="btn" id="minusBreak") -
+        li
+          div(id="break")
+        li
+          button(class="btn" id="addBreak") +
+    div(class="col-md-2")
+      p Session Length
+      ul(class="list-inline")
+        li
+          button(class="btn" id="minusSession") -
+        li  
+          div(id="session")
+        li  
+          button(class="btn" id="addSession") +
+ 
+div(class="container-fluid")
+  div(class="row")
+    div(class="col-md-12 text-center")
+      div(id="clock")
+      
+  div(class="row")
+    div(class="col-md-12 text-center")
+      button(class="btn" id="start") Start   
+      button(class="btn" id="stop") Stop   
+      button(class="btn" id="reset") Reset
+      
+      
+      
